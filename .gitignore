@@ -1,0 +1,23 @@
+# Secrets
+.env
+*.key
+*.pem
+
+# Results (large, regeneratable)
+results/
+
+# Node
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+.cache/

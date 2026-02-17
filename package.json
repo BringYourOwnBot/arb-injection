@@ -1,0 +1,57 @@
+{
+  "name": "byocb-arb-injection",
+  "version": "1.1.1",
+  "description": "BYOCB ArbInjectionSkill - Smart contract vulnerability scanner for arbitrary call injection. Educational tool for security research.",
+  "main": "index.js",
+  "bin": {
+    "arb-injection": "./cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "bsc": "node index.js bsc",
+    "eth": "node index.js eth",
+    "base": "node index.js base",
+    "arb": "node index.js arb",
+    "scan": "node modules/scan-arbitrary-call.js"
+  },
+  "keywords": [
+    "security",
+    "bytecode",
+    "scanner",
+    "evm",
+    "smart-contract",
+    "vulnerability",
+    "ethereum",
+    "bsc",
+    "base",
+    "openclaw",
+    "byocb",
+    "agent-skill"
+  ],
+  "author": "Digisec",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BringYourOwnBot/arb-injection.git"
+  },
+  "homepage": "https://github.com/BringYourOwnBot/arb-injection#readme",
+  "bugs": {
+    "url": "https://github.com/BringYourOwnBot/arb-injection/issues"
+  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "modules/",
+    "README.md",
+    "SKILL.md"
+  ],
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.72.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.0.0"
+  }
+}

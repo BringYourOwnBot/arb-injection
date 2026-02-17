@@ -1,0 +1,22 @@
+# Results and test files
+results/
+temp_*.txt
+*.log
+
+# Environment files (contain API keys!)
+.env
+.env.*
+
+# Git files
+.git/
+.gitignore
+
+# Analysis scripts (not needed for CLI)
+analyze-*.js
+batch-scan.js
+callback-deep-analysis.js
+
+# Development
+node_modules/
+*.lock
+nul
